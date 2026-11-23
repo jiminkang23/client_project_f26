@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | UMSI</title>
+
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#main" class="skip">
+            Skip to Main Content
+        </a>
+
+        <img
+            src="images/UMSI_signature_vertical_informal_solidblue.jpg"
+            alt="UMSI Logo">
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prep.html">Preparing for Your Experience</a></li>
+                <li><a href="during.html">During Your Experience</a></li>
+                <li><a href="faculty.html">Faculty Hub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="error-page">
+            <h1>404 - Page Not Found</h1>
+
+            <h2>Uh oh!</h2>
+
+            <p>
+                The page you're looking for might have
+                moved or no longer exists.
+            </p>
+
+            <a href="index.html" class="home-button">
+                Return to Homepage
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            University of Michigan School of Information |
+            <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">
+                Engaged Learning Office
+            </a>
+        </p>
+
+        <address>
+            <a href="mailto:umsi.engagement@umich.edu">
+                umsi.engagement@umich.edu
+            </a>
+        </address>
+
+        <p>&copy; <span id="year"></span> Regents of the University of Michigan</p>
+    </footer>
+    <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>
